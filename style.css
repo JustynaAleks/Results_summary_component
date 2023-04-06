@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main {
+    width: 46em;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px black;
+}
+
+p {
+    color: hsl(241, 100%, 89%);
+}
+
+.result {
+    width: 23em;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.result > h2 {
+    margin: 1.6em 0 1.6em 0;
+}
+
+.result > p:nth-child(3) {
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 1em 0 0.5em 0;
+}
+
+.result > p:last-child {
+    margin: 0 4em 3em;
+    font-size: 1.1em;
+}
+
+.score {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score > p:first-child {
+    font-size: 4.4em;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.summary {
+    margin-left: 3em;
+}
+
+.summary div {
+    border-radius: 8px;
+    width: 18em;
+    height: 3.4em;
+    margin-top: 1.1em;
+    font-weight: 600;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+
+.summary > div:nth-child(2) {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.05);
+}
+
+.summary > div:nth-child(3) {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.summary > div:nth-child(4) {
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.05);
+}
+
+.summary > div:nth-child(5) {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.05);
+}
+
+button {
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    width: 16.3em;
+    height: 3.2em;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
