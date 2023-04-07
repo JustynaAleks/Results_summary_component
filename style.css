@@ -121,7 +121,7 @@ img {
     margin-right: 0.5em;
 }
 
-span > p {
+p > span {
     color: hsl(0, 0%, 69%);
     font-weight: 800;
 }
@@ -129,6 +129,7 @@ span > p {
 b {
     color: hsl(224, 30%, 27%);
     font-weight: 900;
+    margin-right: 0.5em;
 }
 
 button {
